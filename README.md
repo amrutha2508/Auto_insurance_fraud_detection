@@ -24,5 +24,8 @@ The data consists of 11565 instances and 1 target column ‘FraudFound_P’ and 
 5. The models performance were compared using the Confusion matrices, ROC curves , recall and F1- scores.
 6. Since we want to minimize false negatives in insurance fraud detection to avoid significant financial loses for the insurer we can compare the recall(= True positives/(True positives+False negatives)) of different algorithms and choose the model with high recall rate.
 
+<img width="446" alt="image" src="https://github.com/amrutha2508/Auto_insurance_fraud_detection/assets/147953598/32b950ce-b2df-4cd4-93d5-27d7ee4f4ca4">
+
+
 ## Conclusions :
-Out of different models tested Random Forest has a recall rate of 91% and AUC of 96% , KNN has a recall rate of 97% and AUC  of 91% . Since our major criteria is to minimize false negatives we choose KNN as our final model.
+Out of different models tested Random Forest has a recall rate of 91% and AUC of 96% , KNN has a recall rate of 97% and AUC  of 90% . Since our major criteria is to minimize false negatives we choose KNN as our final model.
