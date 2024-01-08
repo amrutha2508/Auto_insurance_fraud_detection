@@ -1,6 +1,6 @@
 # Auto Insurance Fraud Detection
 ## Abstract :
-nsurance fraud is one of the major issues that causes significant financial losses for both insurance company and public as well (high premium caused by loss to the companies). This project endeavors to create a machine learning model with the objective of classifying whether an insurance claim is fraudulent or not . The study employs techniques such as PCA for dimensionality reduction and over sampling for providing a balanced data set to the ML model. Different classifier Algorithms are used on this modified dataset and best model is chosen by comparing their ROC curves and recall rates.
+Insurance fraud is one of the major issues that causes significant financial losses for both insurance company and public as well (high premium caused by loss to the companies). This project endeavors to create a machine learning model with the objective of classifying whether an insurance claim is fraudulent or not . The study employs techniques such as PCA for dimensionality reduction and over sampling for providing a balanced data set to the ML model. Different classifier Algorithms are used on this modified dataset and best model is chosen by comparing their ROC curves and recall rates.
 
 ## Data :
 The data consists of 11565 instances and 1 target column ‘FraudFound_P’ and 33 attributes’ out of which 10 are numerical and 24 are categorical type.
